@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>যশোর আবাসিক হোটেল</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+        .hotel {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .hotel h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .hotel p {
+            margin: 5px 0;
+        }
+        .hotel .phone {
+            color: #007BFF;
+            font-weight: bold;
+        }
+        /* যোগ করুন বাটন */
+        .add-button {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+        }
+        .add-button button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        .add-button button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>যশোর আবাসিক হোটেল</h1>
+
+    <div class="hotel">
+        <h2>হোটেল হাসান ইন্টারন্যাশনাল</h2>
+        <p><strong>ঠিকানা:</strong> ১৫ নং কেশবলাল সড়ক, যশোর।</p>
+        <p><strong>ফোন নাম্বার:</strong> <span class="phone">67474</span></p>
+        <p><strong>রুম ভাড়া:</strong> সিঙ্গেল বেড ৫০০ টাকা ও ডাবল বেড ৭০০ টাকা।</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল মনিহার আবাসিক</h2>
+        <p><strong>ঠিকানা:</strong> পুরাতন কেন্দ্রীয় বাস টার্মিনাল, যশোর</p>
+        <p><strong>ফোন নাম্বার:</strong> <span class="phone">64180</span></p>
+        <p><strong>ভাড়া:</strong> ৩০০ টাকা থেকে ৬০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল মিডওয়ে</h2>
+        <p><strong>ঠিকানা:</strong> পুরাতন বাস টার্মিনাল, খুলনা রোড, যশোর</p>
+        <p><strong>মোবাইল নাম্বার:</strong> -</p>
+        <p><strong>ভাড়া:</strong> ৩০০ টাকা থেকে ৫০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল নয়ন (আবাসিক)</h2>
+        <p><strong>ঠিকানা:</strong> কাপুড়িয়াপট্রি, সদর, যশোর</p>
+        <p><strong>ফোন নাম্বার:</strong> <span class="phone">66535</span></p>
+        <p><strong>ভাড়া:</strong> ৩০০ টাকা থেকে ১,২০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল চৌধুরী</h2>
+        <p><strong>ঠিকানা:</strong> কাপুড়িয়াপট্রি, সদর, যশোর</p>
+        <p><strong>ফোন নাম্বার:</strong> <span class="phone">65847</span></p>
+        <p><strong>ভাড়া:</strong> ৫০০ টাকা থেকে ১,২০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল মিড টাউন আবাসিক</h2>
+        <p><strong>ঠিকানা:</strong> মিডনিসিপ্যাল রোড, যশোর সদর, যশোর</p>
+        <p><strong>ফোন নাম্বার:</strong> <span class="phone">66510</span></p>
+        <p><strong>ভাড়া:</strong> ৫০০ টাকা থেকে ২,০০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>গ্রান্ড হোটেল</h2>
+        <p><strong>ঠিকানা:</strong> এম. কে. রোড, যশোর</p>
+        <p><strong>ফোন নাম্বার:</strong> <span class="phone">68879</span></p>
+        <p><strong>ভাড়া:</strong> ৫০০ টাকা থেকে ১,৫০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল আর. এস</h2>
+        <p><strong>ঠিকানা:</strong> এম. কে. রোড, যশোর</p>
+        <p><strong>ফোন নাম্বার:</strong> <span class="phone">61617</span></p>
+        <p><strong>ভাড়া:</strong> ৫০০ টাকা থেকে ৩,০০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল ম্যাগপাই</h2>
+        <p><strong>ঠিকানা:</strong> গাড়ীখানা রোড, যশোর</p>
+        <p><strong>ফোন নাম্বার:</strong> <span class="phone">66141</span></p>
+        <p><strong>ভাড়া:</strong> ৬০০ টাকা থেকে ২,৫০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল রজনীগন্ধা (আবাসিক)</h2>
+        <p><strong>ঠিকানা:</strong> বেনাপোল বাজার, শার্শা, যশোর</p>
+        <p><strong>মোবাইল নাম্বার:</strong> <span class="phone">01711-161268</span></p>
+        <p><strong>ভাড়া:</strong> ৫০০ টাকা থেকে ২,০০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল সানসিটি ইন্টারন্যাশনাল</h2>
+        <p><strong>ঠিকানা:</strong> বেনাপোল বাজার, শার্শা, যশোর</p>
+        <p><strong>মোবাইল নাম্বার:</strong> <span class="phone">01711-348551</span></p>
+        <p><strong>ভাড়া:</strong> ৩০০ টাকা থেকে ২,০০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল গোল্ডেন প্যালেস (আবাসিক)</h2>
+        <p><strong>ঠিকানা:</strong> নওয়াপাড়া বাজার, অভয়নগর, যশোর</p>
+        <p><strong>ফোন নাম্বার:</strong> <span class="phone">04222-71368</span></p>
+        <p><strong>ভাড়া:</strong> ৮০০ টাকা থেকে ২,৫০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল আল সাকিল (আবাসিক)</h2>
+        <p><strong>ঠিকানা:</strong> নওয়াপাড়া বাজার, অভয়নগর, যশোর</p>
+        <p><strong>মোবাইল নাম্বার:</strong> <span class="phone">01197-101071</span></p>
+        <p><strong>ভাড়া:</strong> ৪০০ টাকা থেকে ১,২০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল নওয়াপাড়া আবাসিক</h2>
+        <p><strong>ঠিকানা:</strong> নওয়াপাড়া বাজার, যশোর</p>
+        <p><strong>মোবাইল নাম্বার:</strong> -</p>
+        <p><strong>ভাড়া:</strong> ৩০০ টাকা থেকে ৮০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল আল সেলিম আবাসিক</h2>
+        <p><strong>ঠিকানা:</strong> নওয়াপাড়া বাজার, যশোর</p>
+        <p><strong>টেলিফোন নাম্বার:</strong> <span class="phone">04222-213</span></p>
+        <p><strong>ভাড়া:</strong> ৩০০ টাকা থেকে ১,০০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল সোনালী</h2>
+        <p><strong>ঠিকানা:</strong> হাজী মোহাম্মদ মহসিন রোড, যশোর</p>
+        <p><strong>মোবাইল নাম্বার:</strong> <span class="phone">01711-295473</span></p>
+        <p><strong>ভাড়া:</strong> ৫০০ টাকা থেকে ৩,০০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল বলাকা</h2>
+        <p><strong>ঠিকানা:</strong> এন ৭০২, যশোর</p>
+        <p><strong>মোবাইল নাম্বার:</strong> <span class="phone">01711-029356</span></p>
+        <p><strong>ভাড়া:</strong> ৫০০ টাকা থেকে ৩,০০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল শামস ইন্টারন্যাশনাল</h2>
+        <p><strong>ঠিকানা:</strong> ৬৬, আর এন রোড, যশোর ৭৪০০</p>
+        <p><strong>মোবাইল নাম্বার:</strong> <span class="phone">01996-002012</span></p>
+        <p><strong>ভাড়া:</strong> ৮০০ টাকা থেকে ২,৫০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল শাহরিয়ার আবাসিক</h2>
+        <p><strong>ঠিকানা:</strong> রেল স্টেশন রোড়, যশোর</p>
+        <p><strong>মোবাইল নাম্বার:</strong> -</p>
+        <p><strong>ভাড়া:</strong> ৩০০ টাকা থেকে ৬০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল শামিম (আবাসিক)</h2>
+        <p><strong>ঠিকানা:</strong> অর্কিড সেন্টার, এমকে আরডি, যশোর</p>
+        <p><strong>মোবাইল নাম্বার:</strong> <span class="phone">01712-232934</span></p>
+        <p><strong>ভাড়া:</strong> ৫০০ টাকা থেকে ২,৫০০ টাকা পর্যন্ত</p>
+    </div>
+
+    <div class="hotel">
+        <h2>হোটেল কো কো (আবাসিক)</h2>
+        <p><strong>ঠিকানা:</strong> যশোর – নড়াইল রোড, যশোর</p>
+        <p><strong>মোবাইল নাম্বার:</strong> <span class="phone">01923-100400</span></p>
+        <p><strong>ভাড়া:</strong> ৪০০ টাকা থেকে ১,৫০০ টাকা পর্যন্ত</p>
+            <!-- যোগ করুন বাটন -->
+    <div class="add-button">
+        <a href="https://www.google.com"><button>➕ যোগ করুন</button></a>
+
+    </div>
+</body>
+</html>
